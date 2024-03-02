@@ -1,0 +1,151 @@
+!SESSION 2024-03-02 17:13:06.179 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -data
+Command-line arguments:  -data
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.187
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.500
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.534
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.536
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.594
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.595
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.611
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.615
+!MESSAGE Wait for AutoBuildOffJob end 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.616
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.617
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.619
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.619
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:08.657
+!MESSAGE Started org.eclipse.buildship.core 38ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:09.611
+!MESSAGE LoadingGradleVersionJob finished 953ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:09.646
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:09.647
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:09.871
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.655
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-03-02 17:13:10.719
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: C:\Users\final\Documents\JavaProject\timekeeping-management overlaps the workspace location: C:\Users\final\Documents\JavaProject\timekeeping-management\workspace
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2024-03-02 17:13:10.720
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2024-03-02 17:13:10.720
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2024-03-02 17:13:10.720
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2024-03-02 17:13:10.720
+!MESSAGE C:\Users\final\Documents\JavaProject\timekeeping-management overlaps the workspace location: C:\Users\final\Documents\JavaProject\timekeeping-management\workspace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.855
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.867
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.916
+!MESSAGE Cannot resolve 'C:\Users\final\AppData\Local\nvim/lang-servers/intellij-java-google-style.xml'.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.955
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.963
+!MESSAGE >> New configuration: {sources={organizeImports={staticStarThreshold=9999.0, starThreshold=9999.0}}, signatureHelp={enabled=true}, completion={favoriteStaticMembers=[org.hamcrest.MatcherAssert.assertThat, org.hamcrest.Matchers.*, org.hamcrest.CoreMatchers.*, org.junit.jupiter.api.Assertions.*, java.util.Objects.requireNonNull, java.util.Objects.requireNonNullElse, org.mockito.Mockito.*]}, contentProvider={preferred=fernflower}, java={implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, eclipse={downloadSources=true}, configuration={updateBuildConfiguration=interactive}, maven={downloadSources=true}, format={settings={profile=GoogleStyle, url=C:\Users\final\AppData\Local\nvim/lang-servers/intellij-java-google-style.xml}, enabled=true}, references={includeDecompiledSources=true}}, codeGeneration={toString={template=${object.className}{${member.name()}=${member.value}, ${otherMembers}}}, useBlocks=true}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.965
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.969
+!MESSAGE >> New configuration: {sources={organizeImports={staticStarThreshold=9999.0, starThreshold=9999.0}}, signatureHelp={enabled=true}, completion={favoriteStaticMembers=[org.hamcrest.MatcherAssert.assertThat, org.hamcrest.Matchers.*, org.hamcrest.CoreMatchers.*, org.junit.jupiter.api.Assertions.*, java.util.Objects.requireNonNull, java.util.Objects.requireNonNullElse, org.mockito.Mockito.*]}, contentProvider={preferred=fernflower}, java={implementationsCodeLens={enabled=true}, referencesCodeLens={enabled=true}, eclipse={downloadSources=true}, configuration={updateBuildConfiguration=interactive}, maven={downloadSources=true}, format={settings={profile=GoogleStyle, url=C:\Users\final\AppData\Local\nvim/lang-servers/intellij-java-google-style.xml}, enabled=true}, references={includeDecompiledSources=true}}, codeGeneration={toString={template=${object.className}{${member.name()}=${member.value}, ${otherMembers}}}, useBlocks=true}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:10.973
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:11.295
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:11.296
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:11.305
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:11.306
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:11.821
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:12.037
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:12.648
+!MESSAGE begin problem for /AbstractConverter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:12.650
+!MESSAGE 1 problems reported for /AbstractConverter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:12.655
+!MESSAGE Validated 1. Took 215 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:22.130
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:22.144
+!MESSAGE Clearing problems for /AbstractConverter.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:22.650
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:22.759
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:22.760
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-03-02 17:13:22.784
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
