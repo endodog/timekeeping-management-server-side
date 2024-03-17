@@ -1,6 +1,6 @@
 package com.endodog.timekeeping_management.constant;
 
-public final class ConstantSystem {
+public final class SystemConstant {
 
   public static final byte CODE_LENGTH = 20;
   public static final int CURRENT_PAGE_DEFAULT = 1;

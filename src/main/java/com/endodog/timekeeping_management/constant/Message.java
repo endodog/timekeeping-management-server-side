@@ -1,7 +1,8 @@
 package com.endodog.timekeeping_management.constant;
 
 public enum Message {
-  SUCCESS("Success");
+  SUCCESS("Success"),
+  NO_CONTENT("Không có dữ liệu");
 
   private String message;
 
